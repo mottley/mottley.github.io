@@ -41,7 +41,7 @@ $(document).ready(function () {
     } else {
       $('.panel-cover').addClass('panel-cover--collapsed')
       $('.panel-cover').css('max-width', currentWidth)
-      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {
+      $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 700, swing = 'swing', function () {
         renderContent();
       })
     }
